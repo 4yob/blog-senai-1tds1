@@ -16,7 +16,7 @@
 
 body {
     font-family: "Sedan", sans-serif;
-    background-color: rgba(148, 126, 0, 0.067)
+    background-color: #e5e5e5c7;
 }
 
 h1 {
@@ -31,4 +31,27 @@ h3 {
 header {
     display: flex;
     justify-content: space-around;
+    margin-top: 10px;
+    height: 150px;
+    background-color: #033100a4;
+    color: #ffffff;
+    align-items: center;
+}
+
+#logo-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+#links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+#links a {
+    text-decoration: none;
+    color: #ececec;
+    font-size: 1.2rem;
 }
