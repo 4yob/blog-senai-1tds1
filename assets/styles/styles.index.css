@@ -31,7 +31,6 @@ h3 {
 header {
     display: flex;
     justify-content: space-around;
-    margin-top: 10px;
     height: 150px;
     background-color: #033100a4;
     color: #ffffff;
